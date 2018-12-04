@@ -15,7 +15,6 @@ let claim = 0;
 
 console.time('fabric');
 let board = Array.from(Array(BOARD_SIZE), _ => Array(BOARD_SIZE).fill(0));
-let count = 0;
 
 const data = fs.readFileSync(file, 'utf-8').split('\n');
 // const data = ['#1 @ 1,3: 4x4', '#2 @ 3,1: 4x4', '#3 @ 5,5: 2x2']; // 4
